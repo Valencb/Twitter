@@ -1,0 +1,17 @@
+Body{
+  background-color: #E6ECF0;
+  margin: 0%;
+}
+header{
+  display: inline-block;
+  background-color: white;
+  height: 4em;
+  width: 100%;
+}
+#navTool{
+  width: 100%;
+}
+#twitterBird{
+  display: inline-block;
+  position: relative;
+}
