@@ -1,6 +1,7 @@
 Body{
   background-color: #E6ECF0;
   margin: 0%;
+  display: block;
 }
 header{
   display: inline-block;
@@ -9,9 +10,65 @@ header{
   width: 100%;
 }
 #navTool{
+  display: inline-block;
+  width: 40%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: #cc3366;
+
+}
+#twitterCenter{
+  justify-content: center;
+  font-size: 2em;
+}
+#profile {
+  width: 1.5em;
+  position: relative;
+  bottom: 30%;
+  right: 0%;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#Search{
+  text-align: right;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%;
+}
+#tweet{
+  right: 0%;
+}
+td{
+  height: 30%;
+}
+table{
   width: 100%;
 }
-#twitterBird{
-  display: inline-block;
+#center{
+  align-content: center;
+}
+#bnt-tweet{
+  width: 5em;
+  height: 2em;
+}
+#imagen-left {
+  float: right;
+  width: 25%;
+}
+th, td {
+    padding: 15px;
+}
+#block-center{
   position: relative;
+  left: 35%;
+  top:20%;
 }
