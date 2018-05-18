@@ -4,7 +4,6 @@ Body{
   display: block;
 }
 header{
-  display: inline-block;
   background-color: white;
   height: 4em;
   width: 100%;
@@ -47,15 +46,7 @@ li {
 #tweet{
   right: 0%;
 }
-td{
-  height: 30%;
-}
-table{
-  width: 100%;
-}
-#center{
-  align-content: center;
-}
+
 #bnt-tweet{
   width: 5em;
   height: 2em;
@@ -64,11 +55,39 @@ table{
   float: right;
   width: 25%;
 }
-th, td {
-    padding: 15px;
-}
+
 #block-center{
-  position: relative;
+  position: absolute;
   left: 35%;
   top:20%;
+}
+#twetear, #First-block{
+  width: 20em;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+#element{
+position: absolute;
+top: 40%;
+width: 20em;
+}
+#last-block{
+  position: absolute;
+  top: 18%;
+  left: 75%;
+}
+#text{
+  background: #F9EAEF;
+  border-radius: 5%;
+  width: 30em;
+}
+#textThink {
+  width: 28em;
+  border-radius: 5%;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+#twetear{
+  position:relative;
+  bottom: 45%;
 }
